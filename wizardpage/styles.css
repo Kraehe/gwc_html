@@ -1,0 +1,62 @@
+/* changes all in the whole html page */
+*{
+  font-family: courier;
+  font-size: 101%;
+}
+a:link{
+  color: red;
+}
+a:visited{
+  color: palegreen;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/79/7f/ea/797fea56f2fe8235f1be79a0d26e03a9.gif);
+}
+/*
+   falling sparkles
+   https://i.pinimg.com/originals/79/7f/ea/797fea56f2fe8235f1be79a0d26e03a9.gif
+   normal sparkle
+   https://66.media.tumblr.com/010c46067b29b710ce9a508fb4171dfb/tumblr_inline_n1ubnjJXdz1qmvw6b.gif
+*/
+
+/* aligns the inner content div class */
+button{
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: tomato;
+  color: white;
+}
+button:hover{
+  background-color: salmon;
+}
+button:active{
+  background-color: palegreen;
+}
+.innerContent{
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.pcontent{
+
+}
+.desc{
+  padding: 20px;
+  background: rgba(255, 250, 217, 0.2);
+  border-radius: 20px;
+}
+/* sets the color of bolded text to 'tomato' */
+b{
+  color: tomato;
+}
+/* changes the opacity of the hidden wizard block when hovered over */
+#wiz{
+  color: tomato;
+  padding: 20px;
+  font-weight: 400;
+}
