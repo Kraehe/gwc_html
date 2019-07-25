@@ -8,11 +8,11 @@
   <script src="openlayer.js"></script>
 </head>
 <body>
-  <!-- This is the map! -->
-  <div class="map" id="map"></div>
-  <p>
+   <textarea id="country-name" rows="1" cols="20">Enter a country name</textarea>
+   <button type="button" onclick="panLocation()">Go to Country</button>
     <button type="button" name="button" onclick="panHome()">Go Home</button>
-  </p>
+   <!-- This is the map! -->
+  <div class="map" id="map"></div>
 	<footer>
 		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
 	</footer>
