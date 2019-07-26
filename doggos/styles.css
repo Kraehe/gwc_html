@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content{
+  align-self: center;
+  background-color: pink;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 150%;
+  font-family: helvetica neue;
+}
+.header{
+  border-radius: 10px;
+  background-color: rgba(102, 102, 102, 0.2);
+  font-size: 100px;
+  padding: 30px
+}
+.image{
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+  
+}
